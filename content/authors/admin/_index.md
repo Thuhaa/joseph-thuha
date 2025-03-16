@@ -3,7 +3,7 @@
 title: Joseph Thuha
 
 # Name pronunciation (optional)
-name_pronunciation: Joseph Thuha Maina
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Joseph

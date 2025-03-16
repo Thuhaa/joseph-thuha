@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Joseph Thuha Maina
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Joseph Thuha Maina
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Joseph
+last_name: Thuha
 
 # Status emoji
 status:
@@ -20,92 +20,60 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Geospatial Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: UNDP
+    url: https://undp.org
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:josephthuha@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://twitter.com/joethuha
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/joethuha
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/thuhaa
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/josephthuha/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Geospatial Technology & Software Development
+  - Cloud Computing & DevOps
+  - Programming & Full-Stack Development
+  - Data Science & AI for GIS
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bsc. Geospatial Engineering
+    institution: Technical University of Kenya
+    date_start: 2016-09-01
+    date_end: 2021-12-19
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _A GIS and cloud based crowdsourcing system for reporting and managing emergent waste disposal sites_. Supervised by [Mr David Kanyari](https://staff.tukenya.ac.ke/?r=portal/profile/public&id=1855).
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      url: 'assets/media/papers'
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: GIS Developer/Consultant
+    company_name: UNDP
+    company_url: 'https://undp.org'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2022-01-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developing and Maintaining GIS Applications – Building and optimizing geospatial web applications, including contributions to GeoHub (geohub.data.undp.org).
+      - Geospatial Data Management & Analysis – Processing, analyzing, and visualizing spatial datasets using GIS tools like QGIS, ArcGIS, and PostgreSQL/PostGIS.
+      - Cloud-Based GIS Solutions – Deploying and managing geospatial systems on cloud platforms such as Azure, AWS, and GCP for scalable and efficient geospatial services.
+      - Front-End & Back-End Development – Implementing user-friendly GIS web interfaces with React, SvelteKit, JavaScript, TypeScript, and developing APIs using Python (FastAPI, Django, Flask).
+      - Automation & DevOps for GIS – Streamlining GIS workflows through CI/CD pipelines (GitHub Actions, Azure DevOps), Docker/Kubernetes, and automation tools.
+      - Mapping & Data Visualization – Creating interactive maps and dashboards using Mapbox, Leaflet, OpenLayers, and integrating them into web applications.
+      - Collaboration & Technical Support – Working with different teams, stakeholders, and partners to develop geospatial solutions, provide technical GIS support, and ensure seamless system integration.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -114,15 +82,24 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
         icon: code-bracket
       - name: Data Science
         description: ''
-        percent: 100
         icon: chart-bar
       - name: SQL
         description: ''
-        percent: 40
+        icon: circle-stack
+      - name: Azure
+        description: ''
+        icon: circle-stack
+      - name: React
+        description: ''
+        icon: circle-stack
+      - name: Svelte/Kit
+        description: ''
+        icon: circle-stack
+      - name: JavaScript
+        description: ''
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -132,10 +109,6 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
       - name: Photography
         description: ''
         percent: 80
@@ -144,9 +117,9 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Kiswahili
+    percent: 100
+  - name: Spanish
     percent: 25
 
 # Awards.
@@ -154,33 +127,15 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
+  - title: IBM Python for Data Science and AI
+    url: https://www.credly.com/badges/1c5b7fbe-b042-4185-b0de-9f974e973179?source=linked_in_profile
+    date: '2020-10-28'
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      I studied the concepts of data structures, programming fundamentals and experience with core libraries for data science. By the end, I was familiar with the significant technological trends driving the rise of data science.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Joseph Thuha Maina is a GIS developer and consultant specializing in geospatial software development and cloud-based GIS solutions. With three years of experience, he has worked at UNDP, contributing to projects like GeoHub, a global geospatial data platform. His expertise spans front-end and back-end development, geospatial data visualization, and automation of GIS workflows. He is skilled in technologies such as QGIS, ArcGIS, Mapbox, Leaflet, Python, Java, FastAPI, and cloud services like Azure, AWS, and GCP. Joseph is passionate about leveraging GIS and software engineering to drive data-driven decision-making and innovative spatial solutions.

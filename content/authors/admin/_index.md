@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Mr.
+title: Joseph Thuha
 
 # Name pronunciation (optional)
 name_pronunciation: Joseph Thuha Maina

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Joseph Thuha Maina
+title: Mr.
 
 # Name pronunciation (optional)
 name_pronunciation: Joseph Thuha Maina
@@ -54,10 +54,10 @@ education:
     date_start: 2016-09-01
     date_end: 2021-12-19
     summary: |
-      Thesis on _A GIS and cloud based crowdsourcing system for reporting and managing emergent waste disposal sites_. Supervised by [Mr David Kanyari](https://staff.tukenya.ac.ke/?r=portal/profile/public&id=1855).
+      Thesis on: _A GIS and cloud based crowdsourcing system for reporting and managing emergent waste disposal sites_. Supervised by [Mr David Kanyari](https://staff.tukenya.ac.ke/?r=portal/profile/public&id=1855).
     button:
       text: 'Read Thesis'
-      url: 'assets/media/papers'
+      url: 'assets/media/papers/MAINA-J-THUHA.pdf'
 work:
   - position: GIS Developer/Consultant
     company_name: UNDP

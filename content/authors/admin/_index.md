@@ -57,7 +57,7 @@ education:
       Thesis on: _A GIS and cloud based crowdsourcing system for reporting and managing emergent waste disposal sites_. Supervised by [Mr David Kanyari](https://staff.tukenya.ac.ke/?r=portal/profile/public&id=1855).
     button:
       text: 'Read Thesis'
-      url: 'assets/media/papers/MAINA-J-THUHA.pdf'
+      url: 'assets/media/papers/Joseph-Thuha-Maina-Resume.pdf'
 work:
   - position: GIS Developer/Consultant
     company_name: UNDP
@@ -67,14 +67,26 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - Developing and Maintaining GIS Applications – Building and optimizing geospatial web applications, including contributions to GeoHub (geohub.data.undp.org).
-      - Geospatial Data Management & Analysis – Processing, analyzing, and visualizing spatial datasets using GIS tools like QGIS, ArcGIS, and PostgreSQL/PostGIS.
-      - Cloud-Based GIS Solutions – Deploying and managing geospatial systems on cloud platforms such as Azure, AWS, and GCP for scalable and efficient geospatial services.
+      - Core contributor to GeoHub, a cloud-based geospatial platform delivering SDG analytics and decision-support services across multiple regions.
+      - Designed and implemented scalable spatial ETL pipelines for ingestion, validation, transformation, and publication of large SDG datasets.
+      - Built and maintained backend GIS services using Python-based frameworks and cloud-native architectures.
       - Front-End & Back-End Development – Implementing user-friendly GIS web interfaces with React, SvelteKit, JavaScript, TypeScript, and developing APIs using Python (FastAPI, Django, Flask).
       - Automation & DevOps for GIS – Streamlining GIS workflows through CI/CD pipelines (GitHub Actions, Azure DevOps), Docker/Kubernetes, and automation tools.
       - Mapping & Data Visualization – Creating interactive maps and dashboards using Mapbox, Leaflet, OpenLayers, and integrating them into web applications.
       - Collaboration & Technical Support – Working with different teams, stakeholders, and partners to develop geospatial solutions, provide technical GIS support, and ensure seamless system integration.
-
+  - position: Co-Founder & GIS Developer
+    company_name: GoalSpatial LTD
+    date_start: 2023-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+        - Co-founded a geospatial technology startup focused on custom GIS software and spatial data platforms.
+        - Led end-to-end design and development of GIS applications (desktop/web/backend).
+        - Architected spatial data pipelines using PostGIS, Python, and open-source GIS tools.
+        - Designed and implemented web-based GIS systems for data visualization, analysis, and reporting.
+        - Managed technical roadmap, system architecture, and development standards.
+        - Led and mentored developers and GIS analysts.
+        - Engaged with clients/stakeholders to translate requirements into technical solutions.
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:

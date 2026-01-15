@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COG | Joseph Thuha</title>
+    <link>http://localhost:1313/tags/cog/</link>
+      <atom:link href="http://localhost:1313/tags/cog/index.xml" rel="self" type="application/rss+xml" />
+    <description>COG</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_cf8d6308acd3cf7c.png</url>
+      <title>COG</title>
+      <link>http://localhost:1313/tags/cog/</link>
+    </image>
+    
+    <item>
+      <title>GoalSpatial COGServer</title>
+      <link>http://localhost:1313/project/cogserver/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/cogserver/</guid>
+      <description>&lt;p&gt;GoalSpatial COGServer is a cloud-based COG server for serving large COGs as tiles. This project is maintained by the GoalSpatial team.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIS | Joseph Thuha</title>
+    <link>http://localhost:1313/tags/gis/</link>
+      <atom:link href="http://localhost:1313/tags/gis/index.xml" rel="self" type="application/rss+xml" />
+    <description>GIS</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_cf8d6308acd3cf7c.png</url>
+      <title>GIS</title>
+      <link>http://localhost:1313/tags/gis/</link>
+    </image>
+    
+    <item>
+      <title>GeoHub</title>
+      <link>http://localhost:1313/project/geohub/</link>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/geohub/</guid>
+      <description>&lt;p&gt;UNDP GeoHub is a United Nations Development Programme (UNDP)&amp;rsquo;s cloud-based ecosystem for geospatial data, serving as a centralized platform where UNDP staff and policymakers can create, share, visualize, and analyze spatial data to support evidence-based development, particularly for achieving the Sustainable Development Goals (SDGs).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

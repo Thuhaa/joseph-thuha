@@ -1,0 +1,2328 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: January 15, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.10.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Joseph Thuha" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/project/pandas/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
+  
+
+  
+  
+  
+    
+
+  
+  
+  
+  
+  
+  
+  
+    
+      <link rel="stylesheet" href="/css/_entry.css">
+    
+  
+
+
+  
+
+  
+  
+  
+
+  
+
+  <script src="/js/hb-head.min.js"></script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu_da8bf5d67da24700.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_b2df4632fb680488.png" />
+
+  <link rel="canonical" href="http://localhost:1313/project/pandas/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@joethuha" />
+    <meta property="twitter:creator" content="@joethuha" />
+  
+  <meta property="og:site_name" content="Joseph Thuha" />
+  <meta property="og:url" content="http://localhost:1313/project/pandas/" />
+  <meta property="og:title" content="Pandas | Joseph Thuha" />
+  <meta property="og:description" content="Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures." /><meta property="og:image" content="http://localhost:1313/project/pandas/featured.png" />
+    <meta property="twitter:image" content="http://localhost:1313/project/pandas/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-10-26T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-10-26T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+  
+
+  
+  
+
+
+
+
+
+  <title>Pandas | Joseph Thuha</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+  <script>console.log('✓ Alpine.js loading on demand');</script>
+  
+  
+  <script src="/dist/lib/alpinejs/cdn.min.e041f1b639d1e6b2fc2736d8d7638a409afcd444a6ec90446f8f4e44fa36f406.js" integrity="sha256-4EHxtjnR5rL8JzbY12OKQJr81ESm7JBEb49ORPo29AY=" defer></script>
+
+
+
+
+<script defer src="/js/hb-search.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-start">
+    <div class="order-0 h-full">
+      
+      <a class="navbar-brand" href="/" title="Joseph Thuha">
+        Joseph Thuha
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/"
+        >Bio</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#papers"
+        >Papers</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#talks"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#news"
+        >News</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/experience/"
+        >Experience</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/projects/"
+        >Projects</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/teaching/"
+        >Teaching</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+      <button
+        aria-label="toggle search"
+        class="text-black hover:text-primary inline-block px-3 text-xl dark:text-white cursor-pointer"
+        data-search-toggle>
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+      </button>
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="block dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="hidden dark:block">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+<div
+  x-data="searchModal()"
+  x-show="$store.search.open"
+  @keydown.escape.window="$store.search.open = false"
+  @keydown.cmd.k.window.prevent="$store.search.open = !$store.search.open"
+  @keydown.ctrl.k.window.prevent="$store.search.open = !$store.search.open"
+  x-cloak
+  class="fixed inset-0 z-[100] bg-black/50 backdrop-blur-sm"
+  style="display: none;"
+>
+  
+  <div class="absolute inset-0" @click="$store.search.open = false"></div>
+  
+  
+  <div 
+    class="relative mx-auto mt-[10vh] max-w-3xl"
+    x-show="$store.search.open"
+    x-transition:enter="transition ease-out duration-200"
+    x-transition:enter-start="opacity-0 translate-y-4 scale-95"
+    x-transition:enter-end="opacity-100 translate-y-0 scale-100"
+    x-transition:leave="transition ease-in duration-150"
+    x-transition:leave-start="opacity-100 translate-y-0 scale-100"
+    x-transition:leave-end="opacity-0 translate-y-4 scale-95"
+  >
+    <div class="mx-4 overflow-hidden rounded-2xl bg-white dark:bg-gray-900 shadow-2xl ring-1 ring-gray-900/10 dark:ring-white/10">
+      
+      
+      <div class="border-b border-gray-200 dark:border-gray-800">
+        <div class="flex items-center gap-3 px-4 py-3">
+          
+          
+          <svg class="h-5 w-5 flex-shrink-0 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+          
+          
+          <input
+            x-ref="searchInput"
+            x-model="query"
+            @input="loading = query.trim() !== ''"
+            @input.debounce.300ms="search()"
+            type="text"
+            placeholder="Search for answers..."
+            class="flex-1 bg-transparent text-lg outline-none text-gray-900 dark:text-gray-100 placeholder-gray-400"
+            autocomplete="off"
+            autofocus
+          />
+          
+          
+          <div x-show="loading" class="flex-shrink-0">
+            <svg class="animate-spin h-5 w-5 text-primary-600" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+          </div>
+          
+          
+          <kbd class="hidden sm:block flex-shrink-0 rounded bg-gray-100 px-2 py-1 text-xs font-semibold text-gray-600 dark:bg-gray-800 dark:text-gray-400">ESC</kbd>
+          
+          
+    <button
+            @click="$store.search.open = false"
+            class="flex-shrink-0 rounded-lg p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-300 cursor-pointer"
+    >
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+  </div>
+
+        
+        <div x-show="query && availableFilters.length > 0" x-transition class="border-t border-gray-100 dark:border-gray-800 px-4 py-2">
+          <div class="flex flex-wrap gap-2">
+            <button
+              @click="activeFilter = null; search()"
+              :class="activeFilter === null ? 'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300' : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400'"
+              class="rounded-full px-3 py-1 text-xs font-medium transition-colors cursor-pointer"
+            >
+              All Results
+            </button>
+            <template x-for="filter in availableFilters" :key="filter.filterKey">
+              <button
+                @click="activeFilter = filter.filterKey; search()"
+                :class="activeFilter === filter.filterKey ? 'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300' : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400'"
+                class="rounded-full px-3 py-1 text-xs font-medium transition-colors cursor-pointer"
+                x-text="filter.label + ' (' + filter.count + ')'"
+              ></button>
+            </template>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="max-h-[60vh] overflow-y-auto">
+        
+        
+        <div x-show="!query && results.length === 0" class="p-6">
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+        
+        
+        <div x-show="query && results.length > 0" class="divide-y divide-gray-200 dark:divide-gray-800">
+          <template x-for="(result, index) in results" :key="result.id">
+            <a
+              :href="result.url"
+              @mouseenter="selectedIndex = index"
+              @click="$store.search.open = false"
+              :class="selectedIndex === index ? 'bg-primary-50 dark:bg-primary-900/20 border-l-2 border-primary-600' : ''"
+              class="block px-6 py-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group search-result"
+            >
+              
+              <div class="flex items-center gap-2 mb-2 flex-wrap">
+                
+                <span
+                  x-show="result.filters && result.filters.type"
+                  :class="{
+                    'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300': result.filters.type && result.filters.type[0] === 'questions',
+                    'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300': result.filters.type && result.filters.type[0] === 'faq',
+                    'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300': result.filters.type && result.filters.type[0] === 'docs'
+                  }"
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium"
+                  x-text="result.filters.type ? (typeLabels[result.filters.type[0]] || result.filters.type[0]) : ''"
+                ></span>
+                
+                
+                <span 
+                  x-show="result.filters && result.filters.category" 
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300"
+                  x-text="result.filters.category ? result.filters.category[0] : ''"
+                ></span>
+                
+                
+                <span 
+                  x-show="result.filters && result.filters.difficulty" 
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300"
+                  x-text="result.filters.difficulty ? result.filters.difficulty[0] : ''"
+                ></span>
+              </div>
+              
+              
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors mb-2" x-html="result.meta.title || 'Untitled'"></h3>
+              
+              
+              <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2" x-html="result.excerpt"></p>
+            </a>
+          </template>
+        </div>
+        
+        
+        <div x-show="query && loading" class="px-6 py-16 text-center">
+          <div class="inline-flex items-center gap-3">
+            <svg class="animate-spin h-8 w-8 text-primary-600" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <div class="text-left">
+              <p class="text-lg font-medium text-gray-900 dark:text-white">Searching...</p>
+              <p class="text-sm text-gray-500 dark:text-gray-400" x-text="'Finding results for &quot;' + query + '&quot;'"></p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div x-show="query && results.length === 0 && !loading && hasSearched" class="px-6 py-12 text-center">
+          <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">No results found</h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400" x-text="'No results for &quot;' + query + '&quot;'"></p>
+          <button
+            @click="query = ''; $refs.searchInput.focus()"
+            class="mt-4 text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 font-medium"
+          >
+            Clear search
+          </button>
+        </div>
+      </div>
+      
+      
+      <div class="border-t border-gray-200 dark:border-gray-800 px-4 py-3 bg-gray-50 dark:bg-gray-900/50">
+        <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
+          <div class="flex items-center gap-3">
+            <span class="flex items-center gap-1">
+              <kbd class="rounded bg-white dark:bg-gray-800 px-1.5 py-0.5 font-mono text-[10px] font-semibold border border-gray-300 dark:border-gray-700">↑↓</kbd>
+              Navigate
+            </span>
+            <span class="flex items-center gap-1">
+              <kbd class="rounded bg-white dark:bg-gray-800 px-1.5 py-0.5 font-mono text-[10px] font-semibold border border-gray-300 dark:border-gray-700">↵</kbd>
+              Select
+            </span>
+            <span x-show="availableFilters.length > 0" class="flex items-center gap-1">
+              <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+              </svg>
+              <span x-text="availableFilters.length + ' filters'"></span>
+            </span>
+          </div>
+          <a href="https://hugoblox.com" target="_blank" rel="noopener" class="flex items-center gap-1 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+            <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+            Powered by Hugo Blox
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  function searchModal() {
+    return {
+      query: '',
+      results: [],
+      loading: false,
+      hasSearched: false,  
+      selectedIndex: -1,
+      activeFilter: null,
+      availableFilters: [],
+      trendingSearches: "[\"Search term 1\",\"Search term 2\"]",
+      pagefind: null,
+      
+      
+      typeLabels: {
+        'questions': "\"Questions\"",
+        'faq': "\"FAQ\"",
+        'docs': "\"Documentation\""
+      },
+      
+      async init() {
+        
+        try {
+          this.pagefind = await import('/pagefind/pagefind.js');
+          await this.pagefind.init();
+          console.log('✓ Pagefind initialized');
+          
+          
+          await this.loadFilters();
+        } catch (error) {
+          console.error('Failed to initialize Pagefind:', error);
+        }
+        
+        
+        this.$watch('$store.search.open', (open) => {
+          if (open) {
+            this.$nextTick(() => this.$refs.searchInput?.focus());
+            document.body.style.overflow = 'hidden';
+          } else {
+            document.body.style.overflow = '';
+            this.query = '';
+            this.results = [];
+            this.selectedIndex = -1;
+            this.hasSearched = false;  
+          }
+        });
+        
+        
+        window.addEventListener('keydown', (e) => {
+          if (!this.$store.search.open || this.results.length === 0) return;
+          
+          if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            this.selectedIndex = this.selectedIndex < this.results.length - 1 ? this.selectedIndex + 1 : 0;
+            this.scrollToSelected();
+          } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            this.selectedIndex = this.selectedIndex > 0 ? this.selectedIndex - 1 : this.results.length - 1;
+            this.scrollToSelected();
+          } else if (e.key === 'Enter' && this.selectedIndex >= 0) {
+            e.preventDefault();
+            const selected = this.results[this.selectedIndex];
+            if (selected) {
+              window.location.href = selected.url;
+              this.$store.search.open = false;
+            }
+          }
+        });
+      },
+      
+      scrollToSelected() {
+        this.$nextTick(() => {
+          const selectedEl = document.querySelector('.search-result:nth-child(' + (this.selectedIndex + 1) + ')');
+          if (selectedEl) {
+            selectedEl.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+          }
+        });
+      },
+      
+      async search() {
+        if (!this.query.trim()) {
+          this.results = [];
+          this.hasSearched = false;
+          return;
+        }
+        
+        this.loading = true;
+        this.hasSearched = false;  
+        
+        try {
+          const options = {};
+          
+          
+          if (this.activeFilter) {
+            const [filterCategory, filterValue] = this.activeFilter.split(':');
+            options.filters = { [filterCategory]: filterValue };
+          }
+          
+          const search = await this.pagefind.search(this.query, options);
+          console.log('Search results:', search);
+          console.log('Search filters:', search.filters);
+          
+          
+          this.results = await Promise.all(
+            search.results.slice(0, 10).map(async (result) => {
+              const data = await result.data();
+              console.log('Result data:', data);
+              return {
+                id: data.url,
+                url: data.url,
+                meta: data.meta,
+                excerpt: data.excerpt,
+                filters: data.filters || {}
+              };
+            })
+          );
+          
+          
+          const filterCounts = { type: {}, category: {}, difficulty: {} };
+          
+          this.results.forEach(result => {
+            if (result.filters) {
+              
+              if (result.filters.type) {
+                result.filters.type.forEach(val => {
+                  filterCounts.type[val] = (filterCounts.type[val] || 0) + 1;
+                });
+              }
+              
+              if (result.filters.category) {
+                result.filters.category.forEach(val => {
+                  filterCounts.category[val] = (filterCounts.category[val] || 0) + 1;
+                });
+              }
+              
+              if (result.filters.difficulty) {
+                result.filters.difficulty.forEach(val => {
+                  filterCounts.difficulty[val] = (filterCounts.difficulty[val] || 0) + 1;
+                });
+              }
+            }
+          });
+          
+          console.log('Extracted filter counts from results:', filterCounts);
+          
+          
+          const filters = [];
+          
+          
+          Object.entries(filterCounts.type).forEach(([value, count]) => {
+            filters.push({
+              category: 'type',
+              value,
+              label: this.typeLabels[value] || value.charAt(0).toUpperCase() + value.slice(1),
+              count,
+              filterKey: `type:${value}`
+            });
+          });
+          
+          
+          Object.entries(filterCounts.category).forEach(([value, count]) => {
+            filters.push({
+              category: 'category',
+              value,
+              label: value,
+              count,
+              filterKey: `category:${value}`
+            });
+          });
+          
+          
+          Object.entries(filterCounts.difficulty).forEach(([value, count]) => {
+            filters.push({
+              category: 'difficulty',
+              value,
+              label: value,
+              count,
+              filterKey: `difficulty:${value}`
+            });
+          });
+          
+          this.availableFilters = filters;
+          console.log('Final availableFilters array:', this.availableFilters);
+          
+          
+          if (this.results.length > 0) {
+            this.selectedIndex = 0;
+          }
+        } catch (error) {
+          console.error('Search error:', error);
+          this.results = [];
+        } finally {
+          this.loading = false;
+          this.hasSearched = true;  
+        }
+      },
+      
+      async loadFilters() {
+        
+        try {
+          const search = await this.pagefind.search('');
+          console.log('Available Pagefind filters:', search.filters);
+          
+          const filters = [];
+          
+          
+          if (search.filters && search.filters.type) {
+            Object.entries(search.filters.type).forEach(([value, count]) => {
+              filters.push({
+                category: 'type',
+                value,
+                label: value.charAt(0).toUpperCase() + value.slice(1),
+                count,
+                filterKey: `type:${value}`
+              });
+            });
+          }
+          
+          
+          if (search.filters && search.filters.category) {
+            Object.entries(search.filters.category).forEach(([value, count]) => {
+              filters.push({
+                category: 'category',
+                value,
+                label: value,
+                count,
+                filterKey: `category:${value}`
+              });
+            });
+          }
+          
+          
+          if (search.filters && search.filters.difficulty) {
+            Object.entries(search.filters.difficulty).forEach(([value, count]) => {
+              filters.push({
+                category: 'difficulty',
+                value,
+                label: value,
+                count,
+                filterKey: `difficulty:${value}`
+              });
+            });
+          }
+          
+          this.availableFilters = filters;
+          console.log('Processed filters:', this.availableFilters);
+        } catch (error) {
+          console.error('Failed to load filters:', error);
+        }
+      }
+    };
+  }
+  
+  
+  document.addEventListener('alpine:init', () => {
+    Alpine.store('search', {
+      open: false
+    });
+  });
+</script>
+
+<style>
+  [x-cloak] { display: none !important; }
+</style>
+
+        
+      
+    </div>
+    <div class="page-body  my-10">
+      
+
+
+
+
+
+<div class="mx-auto flex max-w-screen-xl">
+  
+
+
+
+<aside class="hb-sidebar-container max-lg:[transform:translate3d(0,-100%,0)] lg:hidden xl:block">
+  
+  <div class="px-4 pt-4 lg:hidden">
+    
+    
+  </div>
+  <div class="hb-scrollbar lg:h-[calc(100vh-var(--navbar-height))]">
+    <ul class="flex flex-col gap-1 lg:hidden">
+      
+      
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/"
+    
+  >Recent &amp; Upcoming Talks
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/example/"
+    
+  >Example Talk
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/projects/"
+    
+  >Projects
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/"
+    
+  >Blog
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/get-started/"
+    
+  >🎉 Easily create your own simple yet highly customizable blog
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/second-brain/"
+    
+  >🧠 Sharpen your thinking with a second brain
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/data-visualization/"
+    
+  >📈 Communicate your results effectively with the best data visualizations
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/teach-courses/"
+    
+  >👩🏼‍🏫 Teach academic courses
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/project-management/"
+    
+  >✅ Manage your projects
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/"
+    
+  >Projects
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/project/pandas/"
+    
+  >Pandas
+    </a>
+  
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/pytorch/"
+    
+  >PyTorch
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/scikit/"
+    
+  >scikit-learn
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/experience/"
+    
+  >Experience
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/"
+    
+  >Teaching
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/js/"
+    
+  >Learn JavaScript
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/python/"
+    
+  >Learn Python
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/"
+    
+  >Publications
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/preprint/"
+    
+  >An example preprint / working paper
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/journal-article/"
+    
+  >An example journal article
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/conference-paper/"
+    
+  >An example conference paper
+    </a>
+              
+            </li></ul>
+      </div></li>
+    </ul>
+
+    <div class="max-xl:hidden h-0 w-64 shrink-0"></div></div>
+
+</aside>
+  
+
+<nav class="hb-toc order-last hidden w-64 shrink-0 xl:block print:hidden px-4" aria-label="table of contents">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4">
+
+  
+  
+    
+    
+  
+
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  </div>
+  </nav>
+
+
+  <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+
+      
+
+      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Pandas</h1>
+
+      <div class="mt-4 mb-16">
+      <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">Oct 26, 2023</span>
+        
+
+        
+        
+
+        
+        <span class="mx-1">·</span>
+        <span class="mx-1">
+          1 min read
+        </span>
+        
+        </div>
+
+        <div class="mt-3">
+          
+
+
+
+<div class="">
+  
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-large" href="https://github.com/pandas-dev/pandas" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+        Site
+      </a>
+    
+  
+
+
+</div>
+
+
+        </div>
+      </div>
+
+
+
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+        
+        
+        
+      
+      
+      
+      
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 512px; max-height: 512px;">
+          <div style="position: relative">
+            <img srcset="/project/pandas/featured_hu_45c9c28bfc7f613.webp 320w, /project/pandas/featured_hu_17384f419ae10ae7.webp 480w, /project/pandas/featured_hu_6784667f350b7a44.webp 512w"
+                 sizes="(max-width: 480px) 100vw, (max-width: 640px) 90vw, (max-width: 720px) 80vw, 720px"
+                 src="/project/pandas/featured_hu_45c9c28bfc7f613.webp" 
+                 width="512" 
+                 height="512" 
+                 alt="" 
+                 class="featured-image"
+                 fetchpriority="high">
+            
+          </div>
+        </div>
+      
+      
+
+      
+      
+
+      <div class="prose prose-slate lg:prose-xl dark:prose-invert">
+        <p>Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.</p>
+      </div>
+
+      
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2023-10-26T00:00:00.000Z">
+    <span>Last updated on</span>
+    Oct 26, 2023</time>
+
+      <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
+        
+        <div class="max-w-prose print:hidden">
+  
+  
+
+  
+<div class="flex justify-center">
+  
+  <a class="no-underline bg-primary-100 hover:bg-primary-300 text-primary-800 text-xs font-medium mr-2 px-2.5 py-0.5 lg:px-5 lg:py-2 rounded dark:bg-primary-900 dark:hover:bg-primary-700 dark:text-primary-300" href="/tags/hugo/">Hugo</a>
+  
+  <a class="no-underline bg-primary-100 hover:bg-primary-300 text-primary-800 text-xs font-medium mr-2 px-2.5 py-0.5 lg:px-5 lg:py-2 rounded dark:bg-primary-900 dark:hover:bg-primary-700 dark:text-primary-300" href="/tags/wowchemy/">Wowchemy</a>
+  
+  <a class="no-underline bg-primary-100 hover:bg-primary-300 text-primary-800 text-xs font-medium mr-2 px-2.5 py-0.5 lg:px-5 lg:py-2 rounded dark:bg-primary-900 dark:hover:bg-primary-700 dark:text-primary-300" href="/tags/markdown/">Markdown</a>
+  
+</div>
+
+
+  
+<section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+  
+
+  
+  
+  
+  
+  
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fproject%2Fpandas%2F&amp;text=Pandas"
+    title="X"
+    aria-label="X"
+    id="share-link-x"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+  </a>
+  
+
+  
+  
+  
+  
+  
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fproject%2Fpandas%2F&amp;t=Pandas"
+    title="Facebook"
+    aria-label="Facebook"
+    id="share-link-facebook"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
+  </a>
+  
+
+  
+  
+  
+  
+  
+  
+    
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="mailto:?subject=Pandas&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fproject%2Fpandas%2F"
+    title="Email"
+    aria-label="Email"
+    id="share-link-email"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg>
+  </a>
+  
+
+  
+  
+  
+  
+  
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fproject%2Fpandas%2F&amp;title=Pandas"
+    title="LinkedIn"
+    aria-label="LinkedIn"
+    id="share-link-linkedin"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+  </a>
+  
+
+  
+  
+  
+  
+  
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="whatsapp://send?text=Pandas%20http%3A%2F%2Flocalhost%3A1313%2Fproject%2Fpandas%2F"
+    title="WhatsApp"
+    aria-label="WhatsApp"
+    id="share-link-whatsapp"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="m187.58 144.84-32-16a8 8 0 0 0-8 .5l-14.69 9.8a40.55 40.55 0 0 1-16-16l9.8-14.69a8 8 0 0 0 .5-8l-16-32A8 8 0 0 0 104 64a40 40 0 0 0-40 40 88.1 88.1 0 0 0 88 88 40 40 0 0 0 40-40 8 8 0 0 0-4.42-7.16ZM152 176a72.08 72.08 0 0 1-72-72 24 24 0 0 1 19.29-23.54l11.48 23L101 118a8 8 0 0 0-.73 7.51 56.47 56.47 0 0 0 30.15 30.15A8 8 0 0 0 138 155l14.61-9.74 23 11.48A24 24 0 0 1 152 176ZM128 24a104 104 0 0 0-91.82 152.88l-11.35 34.05a16 16 0 0 0 20.24 20.24l34.05-11.35A104 104 0 1 0 128 24Zm0 192a87.87 87.87 0 0 1-44.06-11.81 8 8 0 0 0-6.54-.67L40 216l12.47-37.4a8 8 0 0 0-.66-6.54A88 88 0 1 1 128 216Z"/></svg>
+  </a>
+  
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+
+<div class="flex pt-12 pb-4">
+  
+    
+    
+    
+    <img
+      class="mr-4 h-24 w-24 rounded-full"
+      srcset="/author/joseph-thuha/avatar_hu_fd47c1b7984786cc.webp 96w, /author/joseph-thuha/avatar_hu_114d5940e83399d6.webp 192w, /author/joseph-thuha/avatar_hu_6da6c65fdaf189aa.webp 288w, /author/joseph-thuha/avatar_hu_c293e03eaa62fde2.webp 384w"
+      sizes="96px"
+      src="/author/joseph-thuha/avatar_hu_fd47c1b7984786cc.webp"
+      width="96"
+      height="96"
+      alt="Joseph Thuha"
+      loading="lazy"
+      />
+  
+  <div class="place-self-center">
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Authors
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      <span class="inline-block">
+        <a href="http://localhost:1313/" class="no-underline">
+        Joseph Thuha
+        </a>
+      </span></div>
+
+    
+    <div class="text-sm font-bold text-neutral-700 dark:text-neutral-300">
+    Geospatial Developer
+    </div>
+    
+
+
+    
+
+    <div class="text-2xl sm:text-lg pt-1">
+
+      
+<div class="flex flex-wrap text-neutral-500 dark:text-neutral-300">
+  
+    
+    
+    
+    
+    <a
+      class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="mailto:josephthuha@gmail.com"
+      
+      aria-label="At-Symbol"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://twitter.com/joethuha"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Brands/X"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://www.instagram.com/joethuha"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Brands/Instagram"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M12.91 12.909c.326-.327.582-.72.749-1.151c.16-.414.27-.886.302-1.578c.032-.693.04-.915.04-2.68c0-1.765-.008-1.987-.04-2.68c-.032-.692-.142-1.164-.302-1.578a3.185 3.185 0 0 0-.75-1.151a3.187 3.187 0 0 0-1.151-.75c-.414-.16-.886-.27-1.578-.302C9.487 1.007 9.265 1 7.5 1c-1.765 0-1.987.007-2.68.04c-.692.03-1.164.14-1.578.301a3.2 3.2 0 0 0-1.151.75a3.2 3.2 0 0 0-.75 1.151c-.16.414-.27.886-.302 1.578C1.007 5.513 1 5.735 1 7.5c0 1.765.007 1.987.04 2.68c.03.692.14 1.164.301 1.578c.164.434.42.826.75 1.151c.325.33.718.586 1.151.75c.414.16.886.27 1.578.302c.693.031.915.039 2.68.039c1.765 0 1.987-.008 2.68-.04c.692-.03 1.164-.14 1.578-.301a3.323 3.323 0 0 0 1.151-.75ZM2 6.735v1.53c-.002.821-.002 1.034.02 1.5c.026.586.058 1.016.156 1.34c.094.312.199.63.543 1.012c.344.383.675.556 1.097.684c.423.127.954.154 1.415.175c.522.024.73.024 1.826.024H8.24c.842.001 1.054.002 1.526-.02c.585-.027 1.015-.059 1.34-.156c.311-.094.629-.2 1.011-.543c.383-.344.556-.676.684-1.098c.127-.422.155-.953.176-1.414C13 9.247 13 9.04 13 7.947v-.89c0-1.096 0-1.303-.023-1.826c-.021-.461-.049-.992-.176-1.414c-.127-.423-.3-.754-.684-1.098c-.383-.344-.7-.449-1.011-.543c-.325-.097-.755-.13-1.34-.156A27.29 27.29 0 0 0 8.24 2H7.057c-1.096 0-1.304 0-1.826.023c-.461.021-.992.049-1.415.176c-.422.128-.753.301-1.097.684c-.344.383-.45.7-.543 1.012c-.098.324-.13.754-.156 1.34c-.022.466-.022.679-.02 1.5ZM7.5 5.25a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5ZM4.25 7.5a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0Zm6.72-2.72a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5Z" clip-rule="evenodd"/></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://github.com/thuhaa"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Brands/Github"
+    ><svg style="height: 1em;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://www.linkedin.com/in/josephthuha/"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Brands/Linkedin"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+  
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+      
+      
+    
+<div class="pt-1 no-prose w-full">
+  <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+  <div class="flex flex-col md:flex-row flex-nowrap justify-between gap-5 pt-2">
+    <div class="">
+      
+    </div>
+    <div class="">
+      
+        <a class="group flex text-right no-underline" href="/project/pytorch/">
+          <span class="flex flex-col">
+            <span
+              class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+            >PyTorch</span
+            >
+            <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+              
+                Oct 26, 2023
+              
+            </span>
+          </span>
+          <span
+            class="mt-[-0.3rem] ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+          ><span class="ltr:inline">&rarr;</span></span>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+
+  
+
+
+
+</div>
+
+      </div>
+
+    </main>
+  </article>
+</div>
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2026 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  
+    
+    
+      
+      
+        
+        
+      
+    
+
+    <p class="powered-by text-center text-sm opacity-80 py-1">
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_na" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Builder</a>.
+      <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
+         href="https://hugoblox.com/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_na" target="_blank" rel="noopener" data-hbx="poweredby_cta">Create yours →</a>
+    </p></footer>
+
+    </div>
+
+    
+    
+
+
+<div id="hb-notification-container" class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live="polite" aria-atomic="true"></div>
+
+
+    
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+    
+    <script>
+    window.__HBX_LOGS__ = {"currentPage":{"buildId":"1768473514","file":"project/pandas/index.md","kind":"page","layout":"","path":"/project/pandas/","section":"project","title":"Pandas","type":"project"},"deps":[{"path":"github.com/HugoBlox/hugo-blox-builder/starters/academic-cv","vendor":false,"version":""},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/starters/academic-cv","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify","time":"2025-12-01 03:15:47 +0000 UTC","vendor":false,"version":"v1.2.0"},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/starters/academic-cv","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","time":"2025-11-08 00:16:06 +0000 UTC","vendor":false,"version":"v0.10.0"},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics","time":"2025-12-01 03:15:47 +0000 UTC","vendor":false,"version":"v0.3.0"}],"entries":[{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in event/example/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in event/example/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in event/example/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768473514","id":"","level":"info","message":"✅  Using sections from front matter for page /projects/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1768473514},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in post/second-brain/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in post/second-brain/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in post/second-brain/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in post/second-brain/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in post/second-brain/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in post/second-brain/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768473514","id":"","level":"info","message":"✅  Using sections from front matter for page /experience/ (found 4 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1768473514},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in teaching/js/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in teaching/js/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in teaching/js/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in teaching/python/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in teaching/python/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in teaching/python/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768473495","id":"","level":"info","message":"✅  Using sections from front matter for page /teaching/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1768473496},{"buildId":"1768473514","id":"","level":"info","message":"✅  Using sections from front matter for page / (found 2 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1768473514},{"buildId":"1768473514","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/preprint/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768473514},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/journal-article/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/journal-article/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/journal-article/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/journal-article/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/journal-article/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/journal-article/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/conference-paper/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/conference-paper/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469113},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/conference-paper/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/conference-paper/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/conference-paper/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127},{"buildId":"1768469113","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/conference-paper/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1768469127}],"generatedAt":"2026-01-15T10:38:34Z","hugo":{"goVersion":"go1.25.4","version":"0.154.5"},"modules":{"bloxTailwind":{"path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","version":"v0.10.0"}},"version":1};
+  </script>
+    <script>
+    (function(){
+      try {
+        const PLACEMENT = "\"bottom-left\"";
+        const OPACITY = "1";
+
+        const root = document.createElement('div');
+        root.id = 'hbx-dev-hud-root';
+        root.style.all = 'initial';
+        root.style.position = 'fixed';
+        root.style.zIndex = '2147483647';
+        root.style.pointerEvents = 'none';
+        root.style.bottom = '16px';
+        if (PLACEMENT === 'bottom-right') root.style.right = '16px';
+        else if (PLACEMENT === 'bottom-center') { root.style.left = '50%'; root.style.transform = 'translateX(-50%)'; }
+        else root.style.left = '16px';
+
+        const shadow = root.attachShadow({ mode: 'open' });
+        const style = document.createElement('style');
+        style.textContent = `
+          :host { all: initial; }
+          .btn { pointer-events: auto; position:relative; display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:9999px; background:#111418; color:#e6eaf0; border:1px solid #2a2f38; box-shadow: 0 10px 20px rgba(0,0,0,.25); cursor:pointer; }
+          .btn:hover { filter: brightness(1.1); }
+          .badge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px; padding:0 4px; border-radius:9999px; background:#ef4444; color:white; font: 600 11px/18px system-ui, sans-serif; text-align:center; }
+          .panel { pointer-events:auto; position:fixed; inset:auto auto 72px 16px; width:min(92vw, 1200px); max-height:min(80vh, 800px); background:#0d1117; color:#e6eaf0; border:1px solid #21262d; border-radius:12px; box-shadow: 0 20px 40px rgba(0,0,0,.4); overflow:hidden; display:none; }
+          .panel.open { display:flex; flex-direction:column; }
+          .panel-header { display:flex; align-items:center; gap:12px; padding:12px 16px; border-bottom:1px solid #21262d; background:#161b22; }
+          .panel-header h2 { margin:0; font: 700 16px system-ui, sans-serif; letter-spacing:-0.01em; color:#f0f6fc; }
+          .panel-header .close-btn { margin-left:auto; width:32px; height:32px; border:none; background:#21262d; color:#8b949e; border-radius:6px; cursor:pointer; font-size:16px; display:flex; align-items:center; justify-content:center; }
+          .panel-header .close-btn:hover { background:#30363d; color:#f0f6fc; }
+          .page-info { padding:16px; background:#0d1117; border-bottom:1px solid #21262d; }
+          .page-info h3 { margin:0 0 12px 0; font: 600 14px system-ui, sans-serif; color:#f0f6fc; display:flex; align-items:center; gap:8px; }
+          .page-info h3::before { content:'🔍'; font-size:16px; }
+          .page-meta { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; }
+          .meta-item { display:flex; flex-direction:column; gap:4px; }
+          .meta-label { font: 500 11px system-ui, sans-serif; color:#8b949e; text-transform:uppercase; letter-spacing:0.5px; }
+          .meta-value { font: 600 13px "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", monospace; color:#79c0ff; background:#161b22; padding:6px 8px; border-radius:6px; border:1px solid #21262d; word-break:break-all; }
+          .meta-value.type { color:#a5f3fc; }
+          .meta-value.layout { color:#fbbf24; }
+          .tabs { display:flex; background:#161b22; border-bottom:1px solid #21262d; }
+          .tab { padding:12px 16px; font: 500 14px system-ui, sans-serif; color:#8b949e; cursor:pointer; border-bottom:2px solid transparent; }
+          .tab:hover { color:#f0f6fc; }
+          .tab.active { color:#58a6ff; border-bottom-color:#58a6ff; }
+          .tab-content { flex:1; overflow:auto; }
+          .env-info { padding:12px 16px; font: 500 11px system-ui, sans-serif; color:#8b949e; background:#0d1117; border-bottom:1px solid #21262d; display:flex; align-items:center; gap:16px; }
+          .filters { display:flex; gap:12px; align-items:center; margin-left:auto; }
+          .filters label { display:inline-flex; gap:6px; align-items:center; font: 500 12px system-ui, sans-serif; color:#c9d2e1; cursor:pointer; }
+          .logs-content { overflow:auto; }
+          .entry { display:grid; grid-template-columns:auto 1fr auto; gap:12px; padding:12px 16px; border-bottom:1px solid #21262d; }
+          .entry:hover { background:#161b22; }
+          .entry .lvl { font:700 11px system-ui, sans-serif; text-transform:uppercase; padding:4px 6px; border-radius:4px; }
+          .entry.error .lvl { color:#ffffff; background:#da3633; }
+          .entry.warn .lvl { color:#1f2937; background:#f59e0b; }
+          .entry.info .lvl { color:#ffffff; background:#1f6feb; }
+          .entry .msg { white-space:pre-wrap; word-break:break-word; font: 400 13px system-ui, sans-serif; line-height:1.5; }
+          .entry .meta { color:#8b949e; font: 500 11px "SF Mono", Monaco, monospace; }
+          .page-group-header { padding:12px 16px; font: 600 12px system-ui, sans-serif; color:#58a6ff; border-bottom:1px solid #21262d; background:#0d1117; }
+          @media (prefers-reduced-motion:no-preference) {
+            .panel { transition: all .25s cubic-bezier(0.4, 0, 0.2, 1); transform: translateY(8px) scale(0.95); opacity:0; }
+            .panel.open { transform: translateY(0) scale(1); opacity:1; }
+          }
+        `;
+        shadow.appendChild(style);
+
+        const btnWrap = document.createElement('div');
+        btnWrap.style.position = 'relative';
+        const btn = document.createElement('button');
+        btn.className = 'btn';
+        btn.style.opacity = String(OPACITY);
+        btn.setAttribute('aria-label', 'Hugo Blox Dev HUD');
+        btn.textContent = 'HB';
+        const badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.hidden = true;
+        btnWrap.append(btn, badge);
+
+        const panel = document.createElement('div');
+        panel.className = 'panel';
+        
+        
+        const header = document.createElement('div');
+        header.className = 'panel-header';
+        const title = document.createElement('h2'); 
+        title.textContent = 'Hugo Blox – Dev Tools';
+        const close = document.createElement('button'); 
+        close.className = 'close-btn'; 
+        close.textContent = '×'; 
+        close.title = 'Close';
+        header.append(title, close);
+        
+        
+        const pageInfo = document.createElement('div');
+        pageInfo.className = 'page-info';
+        const pageTitle = document.createElement('h3');
+        pageTitle.textContent = 'Current Page';
+        const pageMeta = document.createElement('div');
+        pageMeta.className = 'page-meta';
+        pageInfo.append(pageTitle, pageMeta);
+        
+        
+        const envInfo = document.createElement('div');
+        envInfo.className = 'env-info';
+        const env = document.createElement('div');
+        env.textContent = '';
+        const filters = document.createElement('div'); 
+        filters.className = 'filters';
+        const chkInfo = document.createElement('input'); 
+        chkInfo.type='checkbox'; 
+        chkInfo.id='hbx-info'; 
+        chkInfo.checked = !!(localStorage.getItem('hbx-show-info')||'');
+        const lblInfo = document.createElement('label'); 
+        lblInfo.htmlFor='hbx-info'; 
+        lblInfo.textContent='Show info';
+        const chkAuto = document.createElement('input');
+        chkAuto.type='checkbox';
+        chkAuto.id='hbx-auto-open';
+        chkAuto.checked = !!(localStorage.getItem('hbx-auto-open')||'');
+        const lblAuto = document.createElement('label');
+        lblAuto.htmlFor='hbx-auto-open';
+        lblAuto.textContent='Auto open';
+        filters.append(lblInfo, chkInfo, lblAuto, chkAuto);
+        envInfo.append(env, filters);
+        
+        
+        const tabs = document.createElement('div');
+        tabs.className = 'tabs';
+        const logsTab = document.createElement('div');
+        logsTab.className = 'tab active';
+        logsTab.textContent = 'Logs';
+        logsTab.dataset.tab = 'logs';
+        tabs.append(logsTab);
+        
+        
+        const tabContent = document.createElement('div');
+        tabContent.className = 'tab-content';
+        const logsContent = document.createElement('div');
+        logsContent.className = 'logs-content';
+        tabContent.append(logsContent);
+        
+        panel.append(header, pageInfo, envInfo, tabs, tabContent);
+
+        shadow.append(btnWrap, panel);
+
+        const attach = () => { if (!document.body.contains(root)) document.body.appendChild(root); };
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', attach);
+        else attach();
+
+        let logs = [];
+        let meta = null;
+        const setLogs = (payload) => { 
+          if (payload) { 
+            logs = Array.isArray(payload.entries) ? payload.entries : []; 
+            meta = payload; 
+          } else { 
+            logs = []; 
+            meta = null; 
+          } 
+        };
+        const shouldShowInfo = () => chkInfo.checked;
+        const createMetaItem = (label, value, className = '') => {
+          const item = document.createElement('div');
+          item.className = 'meta-item';
+          const labelEl = document.createElement('div');
+          labelEl.className = 'meta-label';
+          labelEl.textContent = label;
+          const valueEl = document.createElement('div');
+          valueEl.className = `meta-value ${className}`;
+          valueEl.textContent = value || '(not set)';
+          item.append(labelEl, valueEl);
+          return item;
+        };
+
+        const render = () => {
+          
+          
+          if (meta && meta.hugo) {
+            const hv = meta.hugo.version || '';
+            const gvRaw = meta.hugo.goVersion || '';
+            const gv = gvRaw.replace(/^go/i, '');
+            const tw = meta.modules && meta.modules.bloxTailwind ? meta.modules.bloxTailwind.version : '';
+            env.textContent = `Hugo ${hv} · Go ${gv}${tw ? ` · blox-tailwind ${tw}` : ''}`;
+          }
+
+          
+          pageMeta.replaceChildren();
+          if (meta && meta.currentPage) {
+            const page = meta.currentPage;
+            pageMeta.append(
+              createMetaItem('Type', page.type || 'unknown', 'type'),
+              createMetaItem('Layout', page.layout || '(none)', 'layout'),
+              createMetaItem('Kind', page.kind || 'unknown'),
+              createMetaItem('Section', page.section || '(none)'),
+              createMetaItem('Path', page.path || window.location.pathname),
+              createMetaItem('File', page.file || '(virtual page)'),
+              createMetaItem('Build ID', page.buildId || 'unknown')
+            );
+          } else {
+            
+            pageMeta.append(
+              createMetaItem('Type', 'loading...', 'type'),
+              createMetaItem('Layout', 'loading...', 'layout'),
+              createMetaItem('Kind', 'loading...'),
+              createMetaItem('Section', 'loading...'),
+              createMetaItem('Path', window.location.pathname),
+              createMetaItem('File', 'loading...'),
+              createMetaItem('Build ID', 'loading...')
+            );
+          }
+
+          
+          const visible = logs.filter(e => e.level==='error' || e.level==='warn' || (e.level==='info' && shouldShowInfo()));
+          const errs = visible.filter(e => e.level==='error').length;
+          const warns = visible.filter(e => e.level==='warn').length;
+          const total = errs + warns + (shouldShowInfo()? visible.filter(e=>e.level==='info').length : 0);
+          badge.textContent = String(total);
+          badge.hidden = total === 0;
+          
+          
+          logsTab.textContent = `Logs${total > 0 ? ` (${total})` : ''}`;
+          
+          logsContent.replaceChildren();
+          const groupByPage = new Map();
+          for (const e of visible) {
+            const key = e.page || '/';
+            if (!groupByPage.has(key)) groupByPage.set(key, []);
+            groupByPage.get(key).push(e);
+          }
+          for (const [page, entries] of groupByPage) {
+            const h = document.createElement('div');
+            h.className = 'page-group-header';
+            h.textContent = page;
+            logsContent.appendChild(h);
+            for (const e of entries.sort((a,b)=> (a.level>b.level?-1:1) || (a.timestamp-b.timestamp))) {
+              const row = document.createElement('div');
+              row.className = `entry ${e.level}`;
+              const lvl = document.createElement('div'); 
+              lvl.className='lvl'; 
+              lvl.textContent=e.level;
+              const msg = document.createElement('div'); 
+              msg.className='msg'; 
+              msg.textContent = e.message || '';
+              const metaEl = document.createElement('div'); 
+              metaEl.className='meta'; 
+              metaEl.textContent = new Date(e.timestamp*1000).toLocaleTimeString();
+              row.append(lvl, msg, metaEl);
+              logsContent.appendChild(row);
+            }
+          }
+        };
+
+        const refreshFromWindow = () => { 
+          if (window.__HBX_LOGS__) { 
+            setLogs(window.__HBX_LOGS__); 
+          }
+        };
+        const fetchLogs = async () => {
+          try {
+            const res = await fetch('/hbx-debug.json?cb=' + Date.now());
+            if (res.ok) { const data = await res.json(); setLogs(data); render(); }
+          } catch (e) {   }
+        };
+
+        btn.addEventListener('click', () => { 
+          panel.classList.toggle('open'); 
+          if (panel.classList.contains('open')) { 
+            refreshFromWindow(); 
+            render(); 
+            fetchLogs(); 
+          } 
+        });
+        close.addEventListener('click', () => panel.classList.remove('open'));
+        chkInfo.addEventListener('change', () => { 
+          localStorage.setItem('hbx-show-info', chkInfo.checked ? '1' : ''); 
+          render(); 
+        });
+        chkAuto.addEventListener('change', () => {
+          localStorage.setItem('hbx-auto-open', chkAuto.checked ? '1' : '');
+        });
+
+        
+        refreshFromWindow();
+        render(); 
+
+        
+        if (chkAuto.checked) {
+          panel.classList.add('open');
+          render();
+          fetchLogs();
+        }
+
+        
+        setInterval(() => { refreshFromWindow(); }, 3000);
+      } catch(e) {   }
+    })();
+  </script>
+  </body>
+</html>

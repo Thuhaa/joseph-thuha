@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.136.5'
+  WC_HUGO_VERSION: '0.154.5'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -57,6 +57,13 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         path: ./public
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+    - name: Generate Pagefind search index
+      run: npx pagefind --site "public"
+
 
   # Deploy website to GitHub Pages hosting
   deploy:

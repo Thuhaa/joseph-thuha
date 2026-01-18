@@ -57,7 +57,7 @@ education:
       Thesis on: _A GIS and cloud based crowdsourcing system for reporting and managing emergent waste disposal sites_. Supervised by [Mr David Kanyari](https://staff.tukenya.ac.ke/?r=portal/profile/public&id=1855).
     button:
       text: 'Read Thesis'
-      url: 'assets/media/papers/Joseph-Thuha-Maina-Resume.pdf'
+      url: /uploads/JosephThuhaMaina_Thesis.pdf
 work:
   - position: GIS Developer/Consultant
     company_name: UNDP

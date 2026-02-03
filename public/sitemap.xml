@@ -8,29 +8,29 @@
   <url>
     <loc>http://localhost:1313/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>http://localhost:1313/tags/aws-s3/</loc><lastmod>2026-02-03T12:30:00+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/blog/</loc><lastmod>2026-02-03T12:30:00+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/cog/</loc><lastmod>2026-02-03T12:30:00+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/maplibre/</loc><lastmod>2026-02-03T12:30:00+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/nighttime-lights/</loc><lastmod>2026-02-03T12:30:00+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc><lastmod>2026-02-03T12:30:00+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/titiler/</loc><lastmod>2026-02-03T12:30:00+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/tags/gis/</loc><lastmod>2026-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/project/gswsco/</loc><lastmod>2026-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/project/</loc><lastmod>2026-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/</loc><lastmod>2026-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>http://localhost:1313/project/geohub/</loc><lastmod>2025-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/post/get-started/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/academic/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/post/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/hugo-blox/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/markdown/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/cog/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/flask/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -38,19 +38,7 @@
   <url>
     <loc>http://localhost:1313/tags/python/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/second-brain/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/post/second-brain/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/post/data-visualization/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/hugo/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/post/teach-courses/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>http://localhost:1313/experience/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/hugo-blox-builder/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/javascript/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -59,8 +47,6 @@
     <loc>http://localhost:1313/teaching/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/teaching/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/post/project-management/</loc><lastmod>2023-10-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/</loc><lastmod>2022-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -82,4 +68,36 @@
   <url>
     <loc>http://localhost:1313/publication/conference-paper/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication_types/paper-conference/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>
+    <loc>http://localhost:1313/publication_types/paper-conference/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/cloud-optimized-geotiff/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/cloud-native-gis/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/data-engineering/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/earth-observation/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/fastapi/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/gdal/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/geospatial-data/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/geospatial-pipelines/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/iam/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/raster-data/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/remote-sensing/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/signed-urls/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/viirs/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/web-gis/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/web-mapping/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/xyz-tiles/</loc><changefreq>weekly</changefreq></url></urlset>

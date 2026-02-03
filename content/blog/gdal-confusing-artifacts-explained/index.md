@@ -7,8 +7,8 @@ slug: gdal-confusing-artifacts-explained
 categories: ["GIS", "Remote Sensing"]
 tags: ["Raster Data", "GDAL", "Geospatial Data"]
 image:
-  filename: nightlights_cover.png
-  alt_text: "Nighttime lights web map pipeline preview"
+  filename: GDAL_cover.png
+  alt_text: "Geospatial Data Abstraction Library"
 build:
   render: always
   list: local

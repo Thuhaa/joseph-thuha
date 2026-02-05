@@ -1,7 +1,7 @@
 ---
 title: GSWSCO
 date: 2026-01-01
-external_link: https://github.com/Thuhaa/gswsco-svelte
+external_link: https://gwsco.vercel.app/maps
 tags:
   - GIS
 ---

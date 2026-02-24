@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/Joseph-Thuha-Maina-Resume.pdf
+        url: uploads/Joseph-Thuha-Maina-Geospatial_Developer_CV.pdf
     design:
       css_class: dark
       background:

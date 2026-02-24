@@ -64,29 +64,35 @@ work:
     company_url: 'https://undp.org'
     company_logo: ''
     date_start: 2022-01-01
-    date_end: ''
+    date_end: 2025-12-31
     summary: |2-
       Responsibilities include:
-      - Core contributor to GeoHub, a cloud-based geospatial platform delivering SDG analytics and decision-support services across multiple regions.
-      - Designed and implemented scalable spatial ETL pipelines for ingestion, validation, transformation, and publication of large SDG datasets.
-      - Built and maintained backend GIS services using Python-based frameworks and cloud-native architectures.
-      - Front-End & Back-End Development – Implementing user-friendly GIS web interfaces with React, SvelteKit, JavaScript, TypeScript, and developing APIs using Python (FastAPI, Django, Flask).
-      - Automation & DevOps for GIS – Streamlining GIS workflows through CI/CD pipelines (GitHub Actions, Azure DevOps), Docker/Kubernetes, and automation tools.
-      - Mapping & Data Visualization – Creating interactive maps and dashboards using Mapbox, Leaflet, OpenLayers, and integrating them into web applications.
-      - Collaboration & Technical Support – Working with different teams, stakeholders, and partners to develop geospatial solutions, provide technical GIS support, and ensure seamless system integration.
+      - Core developer of GeoHub, an open-source, cloud-based geospatial platform used by 90+ UN country offices to deliver SDG analytics and operational decision-making at global scale.
+      - Designed and operated scalable spatial ETL pipelines using Python and PostGIS, processing 4,000+ raster and vector datasets across global humanitarian and development programs
+      - Led the redesign of a critical spatial processing pipeline (Data Futures Exchange), improving processing performance by approximately 60% and significantly increasing system reliability
+      - Built and maintained backend GIS APIs using FastAPI and Django, integrating spatial databases, raster services, and cloud-native components
+      - Implemented dynamic raster tiling services using TiTiler, enabling efficient visualization and access to large Earth-observation datasets.
+      - Operated cloud-based geospatial data pipelines on Microsoft Azure, leveraging Blob Storage and Spark-based utilities for large-scale spatial processing.
+      - Implemented asynchronous, message-based ingestion workflows to support reliable data validation, transformation, and publishing.
+      - Optimized PostGIS schemas, spatial indexes, and query patterns, improving performance and stability of production services.
+      - Delivered technical training and onboarding to approximately 500 colleagues, enabling adoption and effective use of GeoHub across distributed country teams.
+      - Collaborated with globally distributed engineering and analytics teams, authored technical documentation, and supported CI/CD-driven deployments.
   - position: Co-Founder & GIS Developer
     company_name: GoalSpatial LTD
-    date_start: 2023-01-01
-    date_end: ''
+    date_start: 2022-01-01
+    date_end: 2024-07-31
     summary: |2-
       Responsibilities include:
-        - Co-founded a geospatial technology startup focused on custom GIS software and spatial data platforms.
-        - Led end-to-end design and development of GIS applications (desktop/web/backend).
-        - Architected spatial data pipelines using PostGIS, Python, and open-source GIS tools.
-        - Designed and implemented web-based GIS systems for data visualization, analysis, and reporting.
-        - Managed technical roadmap, system architecture, and development standards.
-        - Led and mentored developers and GIS analysts.
-        - Engaged with clients/stakeholders to translate requirements into technical solutions.
+        - Co-founded a geospatial technology company delivering custom Web-GIS platforms and spatial data systems.
+        - Led end-to-end development of full-stack GIS applications, spanning backend APIs, PostGIS databases, GeoNode/GeoServerbased services, and web-based mapping interfaces.
+        - Designed and implemented GeoNode-based GIS platforms, including layer publishing, metadata management, permissions, and exposure of GeoServer WMS/WFS/WMTS/XYZ services.
+        - Built and maintained backend services using Python and Django, supporting spatial analysis, data ingestion, and reporting workflows.
+        - Architected and implemented PostGIS-backed spatial data pipelines, including schema design, spatial indexing (GiST/SP-GiST), and query performance optimization.
+        - Developed web-based GIS applications using Leaflet and MapLibre for visualization and interaction with large raster and vector datasets.
+        - Deployed and maintained GIS systems using Docker and cloud infrastructure, ensuring scalability, security, and operational reliability.
+        - Defined technical standards, system architecture, and development workflows.
+        - Led and mentored developers and GIS analysts, providing architectural guidance and code reviews.
+        - Worked directly with clients to translate domain and operational requirements into robust, production-ready geospatial systems.
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
